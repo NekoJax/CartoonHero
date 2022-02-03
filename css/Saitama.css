@@ -1,17 +1,67 @@
 body{
 	margin: 0;
+		font-family: sans-serif;
+			font-size: 25;
+	color: black;
+	line-height: 25px;
 }
 
 header{
 	background-color: #fcdc4a;
 	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+h1, h2{
+	font-family: 'Quintessential', cursive;
 }
 
 header h1{
-	color: white;
+	color: darkred;
+	font-size: 50px;
 }
 
 header img{
-	border-radius: 150px;
+	border-radius: 170px;
 	width: 400px;
+	border: 10px solid white;
 }
+
+main{
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+main img{
+	max-width: 100%;
+}
+
+h2{
+	font-size: 50px;
+	color: darkred;
+	margin: 40px 0 10px;
+}
+
+a{
+    color: red;
+}
+a:hover{
+	color: purple;
+}
+
+
+footer{
+	background-color: #fcdc4a;
+	text-align: center;
+	padding: 40px;
+}
+footer p{
+	margin: 0;
+}
+footer a{
+	color: darkred;
+}
+
+
+
